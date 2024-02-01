@@ -1,0 +1,35 @@
+/* Styling for buttons along the top to swap between dark/light mode */
+.darkToggleButton {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* Dark/light toggle button's styling */
+#darkButton {
+  border-radius: 20%;
+  right: 5%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/* Toggles SVG colour between white/grey */
+.darkToggle {
+  fill: "#2d3142";
+}
+
+/* Used to toggle the info button's darkmode in the bottom bar on app startup */
+.inverse-darkToggle {
+  fill: #ffffff;
+}
+
+/* Default styling for dark mode text and background */
+.dark-mode {
+  background-color: #ffffff;
+  color: #2d3142;
+}
